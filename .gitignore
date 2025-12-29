@@ -1,0 +1,13 @@
+# Entorno virtual
+venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Modelo Yolo (pesados)
+*.pt
+
+# Sitema
+.DS_Store
