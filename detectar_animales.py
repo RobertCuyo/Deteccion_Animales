@@ -67,7 +67,7 @@ while True:
         break
 
     # Inferencia YOLO
-    results = model(frame, conf=0.4, verbose=False)
+    results = model(frame, conf=0.3,iou=0.5 ,verbose=False)
 
     animal_detectado = False
 
